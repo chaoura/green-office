@@ -1,0 +1,89 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald&display=swap";
+* {
+  font-family:Oswald, sans-serif;
+  margin:0;
+  padding:0;
+}
+body {
+  background-image:url("images/fond.png");
+}
+header {
+  background-color:#B8CB21;
+  margin:auto;
+  padding:10px 35px;
+  width:900px;
+}
+header nav ul {
+  color:black;
+  font-weight:bold;
+  text-decoration:none;
+}
+.logo {
+  float:left;
+  height:130px;
+  margin-left:0;
+  padding-left:0;
+}
+nav {
+  height:130px;
+  text-align:end;
+}
+nav ul li {
+  display:inline-block;
+  margin:50px;
+  text-transform:uppercase;
+}
+nav ul li {
+  list-style:none;
+}
+nav ul li a {
+  color:black;
+}
+nav ul li a:hover {
+  color:azure;
+  cursor:pointer;
+}
+main {
+  background-color:white;
+  margin:auto;
+  padding:20px 35px;
+  width:900px;
+}
+h2 {
+  margin-bottom:25px;
+  margin-top:25px;
+  text-indent:1em;
+}
+.txt {
+  margin-left:45px;
+  margin-right:45px;
+  text-align:justify;
+  text-indent:2em;
+}
+.btn {
+  text-align:right;
+}
+button {
+  background-color:#B8CB21;
+  border:none;
+  border-radius:5px;
+  box-shadow:#B5ABAB 5px 10px 5px;
+  margin-right:25px;
+  margin-top:15px;
+  padding:10px 15px;
+}
+.img {
+  float:left;
+  margin-left:25px;
+}
+footer p {
+  margin-bottom:15px;
+  margin-top:15px;
+  text-align:center;
+}
+.imgicn {
+  float:none;
+  margin-bottom:15px;
+  margin-top:10px;
+  text-align:center;
+}
